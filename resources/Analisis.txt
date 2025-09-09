@@ -1,0 +1,12 @@
+Contexto: En una Academia dicta 2 distintos cursos, se requiera conocer: el monto a pagar por cada estudiante, el total de inscritos de cada curso y monto total recibido.
+
+Clases:
+
+Cl_estudiante
+
+
+Cl_curso
+
+Cl_academia
+
+
