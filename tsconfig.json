@@ -40,10 +40,9 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }, "files":[
+  },   "files":[
     "src/Cl_academia.ts",
     "src/Cl_aspirante.ts",
-    "src/Cl_curso.ts",
     "src/pricipal.ts"
   ]
 }

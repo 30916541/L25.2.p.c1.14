@@ -1,5 +1,3 @@
-import Cl_curso from "./Cl_curso.js";
-
 export default class Cl_aspirante{
     private _nombre: string;
     private _condicion: number;
@@ -41,14 +39,8 @@ export default class Cl_aspirante{
         return this._cursoElegido;
     }
 
-    procesarCurso(curso: Cl_curso){
-        if (this.cursoElegido === curso.idCurso) {
-            if (this.condicion === 1) {
-                this.monto = curso.precio;
-            } else if (this.condicion === 2) {
-                this.monto = curso.precio / 2;
-            }
-        }
+    setMonto(monto: number): void {
+        this.monto = monto;
     }
 
     montoPagar(): number{
