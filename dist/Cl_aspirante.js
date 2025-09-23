@@ -1,8 +1,8 @@
 export default class Cl_aspirante {
-    _nombre;
-    _condicion;
-    _cursoElegido;
-    monto;
+    _nombre = "";
+    _condicion = 0;
+    _cursoElegido = 0;
+    monto = 0;
     constructor(nombre, condicion, cursoElegido) {
         this._nombre = nombre;
         this._condicion = condicion;

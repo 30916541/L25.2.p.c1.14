@@ -1,8 +1,8 @@
 export default class Cl_aspirante{
-    private _nombre: string;
-    private _condicion: number;
-    private _cursoElegido: number;
-    private monto: number;
+    private _nombre: string = "";
+    private _condicion: number = 0; 
+    private _cursoElegido: number = 0;
+    private monto: number = 0;
 
 
     constructor(

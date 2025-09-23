@@ -1,17 +1,17 @@
 import Cl_aspirante from "./Cl_aspirante.js";
 
 export default class Cl_academia{
-    private cntCurso1: number;
-    private cntCurso2: number;
-    private acMonto: number;
-    private curso1Id: number;
-    private curso1Nombre: string;
-    private curso1Precio: number;
-    private curso1Cupos: number;
-    private curso2Id: number;
-    private curso2Nombre: string;
-    private curso2Precio: number;
-    private curso2Cupos: number;
+    private cntCurso1: number = 0;
+    private cntCurso2: number = 0;
+    private acMonto: number = 0;
+    private curso1Id: number = 0;
+    private curso1Nombre: string = "";
+    private curso1Precio: number = 0;
+    private curso1Cupos: number = 0;
+    private curso2Id: number = 0;
+    private curso2Nombre: string = "";
+    private curso2Precio: number = 0;
+    private curso2Cupos: number = 0;
 
     constructor() {
         this.cntCurso1 = 0;
